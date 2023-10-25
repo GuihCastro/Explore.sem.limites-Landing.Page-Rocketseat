@@ -1,0 +1,138 @@
+body,
+input,
+textarea {
+    font-family: 'Mulish', sans-serif;
+}
+
+/* Mobile first */
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background: var(--bg-primary);
+}
+
+header .hero {
+    width: 36.4rem;
+    height: 37rem;
+    background-image: url(../img/hero.png);
+}
+
+header .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header h1 {
+    color: var(--titles);
+    font-size: 3.2rem;
+    font-weight: 900;
+    margin-top: 1.7rem;
+}
+
+header p {
+    color: var(--text-primary);
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+header .arrow {
+    margin-top: 3.5rem;
+    margin-bottom: 9.3rem;
+}
+
+main .cards {
+    display: flex;
+    flex-direction: column;
+    padding: 5.3rem 3.9rem;
+    gap: 5rem;
+    background: var(--bg-secondary);
+}
+
+.cards li {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    padding: 2.6rem;
+    gap: 3.3rem;
+    background: #fff;
+    border-radius: 2rem;
+}
+
+.cards li .txt h2 {
+    color: var(--titles);
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 2rem;
+}
+
+.cards li .txt p {
+    color: var(--text-primary);
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.contact h3 {
+    color: var(--titles);
+    font-size: 3.2rem;
+    font-weight: 900;
+    margin: 7.8rem 4.1rem 4.3rem;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+    padding: 0 4.1rem;
+    margin-bottom: 6.5rem;
+}
+
+form input,
+form textarea {
+    display: flex;
+    width: 100%;
+    padding: 1.2rem 1.4rem;
+    align-items: center;
+    gap: 12px;
+    border-radius: 1.6rem;
+    border: 2px solid #312D64;
+}
+
+form input::placeholder,
+form textarea::placeholder {
+    color: #312D64;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+form input[type=button] {
+    display: flex;
+    height: 4.5rem;
+    width: 15rem;
+    padding: 1rem;
+    justify-content: center;
+    background: linear-gradient(96deg, #343193 0%, #302C63 99.68%);
+    color: #fff;
+}
+
+.decoration {
+    display: none;
+}
+
+footer {
+    display: flex;
+    height: 7.8rem;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(96deg, #343193 0%, #302C63 99.68%);
+}
+
+footer p {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 600;
+}

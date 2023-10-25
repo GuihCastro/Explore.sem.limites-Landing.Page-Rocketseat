@@ -1,0 +1,59 @@
+@media (min-width: 769px) {
+
+    header {
+        display: flex;
+        flex-direction: row-reverse;
+        padding: 0 3rem 0 11rem;
+        justify-content: space-between;
+        height: 100vh;
+    }
+
+    header .hero {
+        width: 66rem;
+        height: 67rem;
+        background-image: url(../img/hero-desktop.png);
+        background-size: cover;
+        align-self: flex-start;
+    }
+
+    header .info {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        align-self: flex-end;
+    }
+
+    .info h1 {
+        font-size: 5.8rem;
+    }
+
+    .info p {
+        font-size: 3.2rem;
+        margin-bottom: 17.9rem;
+    }
+
+    main .cards {
+        flex-direction: row;
+        padding: 6.4rem 11.1rem;
+        gap: 6rem;
+    }
+
+    .contact {
+        display: flex;
+    }
+
+    .contact .form {
+        width: 100%;
+        padding: 9.5rem 9.2rem 9.5rem 10.9rem;
+    }
+
+    .contact .decoration {
+        display: block;
+        width: 64.4rem;
+    }
+
+    .decoration img {
+        height: 100%;
+    }
+
+}
